@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Retrieve video source and start time from query parameters
     var videoSource = getQueryParam('video'); // e.g., "video=example_video.mp4"
+    console.log(videoSource);
     var startTime = getQueryParam('start'); // e.g., "start=120"
 
     if (videoSource) {
